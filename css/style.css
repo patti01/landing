@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:100,300,400,500,700,900');
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/button.css");
 
 /* Utilities */
 body {
@@ -22,7 +23,7 @@ a {
 
 
 .container {
-  width: 900px;
+  width: 950px;
   margin: auto;
 }
 
@@ -37,6 +38,7 @@ a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  margin: 0 auto;
 }
 
 .card img {
@@ -73,7 +75,7 @@ a {
   color: white;
   opacity: .9;
   font-size: 20px;
-  text-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+  text-shadow: 1px 3px 5px rgba(0,0,0,0.6);
   margin-bottom: 20px;
 }
 
@@ -95,7 +97,7 @@ a {
 
 .footer {
   text-align: center;
-  padding: 60px;
+  padding: 100px;
   background-color: #103c42;
   clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
 }
@@ -106,7 +108,7 @@ a {
 }
 
 .footer a:hover{
-  color: #7fa99b;
+  color: #639387;
 }
 
 
