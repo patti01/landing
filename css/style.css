@@ -1,0 +1,120 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:100,300,400,500,700,900');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.card {
+  width: 300px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.card img {
+  width: 250px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.banner {
+  background-image: url('../images/banner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.7);
+}
+
+.banner p {
+  color: white;
+  opacity: .9;
+  font-size: 20px;
+  text-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+}
+
+.btn-banner {
+  display: inline-block;
+  background-color: white;
+  padding: 16px 36px;
+  border-radius: 15px;
+  color: #103c42;
+}
+
+.btn-banner:hover {
+  display: inline-block;
+  background-color: #103c42;
+  padding: 16px 36px;
+  border-radius: 15px;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #103c42;
+  clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #fff;
+}
+
+.footer a:hover{
+  color: #7fa99b;
+}
+
+
+
+
+
+
+
+
+
+
